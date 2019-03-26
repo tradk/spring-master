@@ -1,0 +1,11 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Macbook-pro 2015",
+      "category": "Laptops",
+      "status": "available",
+      "price": 1000
+    }
+  ]
+}

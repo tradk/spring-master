@@ -41,7 +41,8 @@ npm install -g json-server
 ```javascript
 json-server --watch database.json 
 ```
-![json-server-running](https://github.com/tradk/spring-master/tree/master/springboot-resttemplate/images/json-server-running.png)
+
+![json-server-running](https://github.com/tradk/spring-master/blob/master/springboot-resttemplate/images/json-server-running.png)
 
 ### Run Spring Boot project
 - The project used Gradle plugin

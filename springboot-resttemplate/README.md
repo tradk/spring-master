@@ -16,7 +16,7 @@ public RestTemplate getRestTemplate() {
 ```js
 npm install -g json-server  
 ```
-- Create json file dummy database(![database.json](https://github.com/tradk/spring-master/blob/master/springboot-resttemplate/database.json))
+- Create json file dummy database([database.json](https://github.com/tradk/spring-master/blob/master/springboot-resttemplate/database.json))
 ```json
 {
   "products": [
@@ -37,7 +37,18 @@ npm install -g json-server
   ]
 }
 ```
-- Run json-server with file database.json
+- Run json-server with database.json file
 ```javascript
 json-server --watch database.json 
 ```
+![json-server-running](https://github.com/tradk/spring-master/tree/master/springboot-resttemplate/images/json-server-running.png)
+
+### Run Spring Boot project
+- The project used Gradle plugin
+```groovy
+gradle bootRun 
+```
+
+### Test application with Postman
+### Reference
+[https://www.tutorialspoint.com/spring_boot/spring_boot_rest_template.htm](https://www.tutorialspoint.com/spring_boot/spring_boot_rest_template.htm)

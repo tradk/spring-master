@@ -4,8 +4,15 @@
       "id": 1,
       "name": "Macbook-pro 2015",
       "category": "Laptops",
-      "status": "available",
+      "status": "unavailable",
       "price": 1000
+    },
+    {
+      "id": 2,
+      "name": "Dell MX1021",
+      "category": "Laptops",
+      "status": "available",
+      "price": 400
     }
   ]
 }
